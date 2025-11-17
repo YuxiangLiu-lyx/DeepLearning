@@ -1,2 +1,38 @@
+# macOS
 .DS_Store
-__pycache__
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+pa1/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Data files
+*.pkl
+*.h5
+*.csv
+
+# Instructions
+instructions.pdf
