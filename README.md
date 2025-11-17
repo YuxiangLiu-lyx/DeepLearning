@@ -14,44 +14,45 @@ A lightweight deep learning framework implemented from scratch in NumPy, inspire
 ## Project Structure
 
 ```
-01-autodiff-and-regression/    # Automatic differentiation and linear regression
-02-basic-neural-networks/      # Feedforward neural networks with basic layers
-03-convolutional-networks/     # CNNs with Conv2d and MaxPool layers
-04-recurrent-networks/         # RNNs with vanilla RNN cells
-05-advanced-layers/            # Normalization and skip connections
+autodiffAndRegression/    # Automatic differentiation and linear regression
+basicNeuralNetworks/      # Feedforward neural networks with basic layers
+convolutionalNetworks/    # CNNs with Conv2d and MaxPool layers
+recurrentNetworks/        # RNNs with vanilla RNN cells
+advancedLayers/           # Normalization and skip connections
 ```
 
 ## Usage
 
 Each module contains training demos that can be run independently:
+
 ### Regression Models
 ```bash
-cd 01-autodiff-and-regression/regressors
+cd autodiffAndRegression/regressors
 python train.py
 ```
 
 ### Basic Neural Networks
 ```bash
-cd 02-basic-neural-networks/autograd
+cd basicNeuralNetworks/autograd
 python train_basic_nn.py
 ```
 
 ### Convolutional Neural Networks
 ```bash
-cd 03-convolutional-networks/autograd
+cd convolutionalNetworks/autograd
 python train_cnn.py
 ```
 
 ### Recurrent Neural Networks
 ```bash
-cd 04-recurrent-networks/autograd
+cd recurrentNetworks/autograd
 python train_rnn_many_to_one.py
 python train_rnn_many_to_many.py
 ```
 
 ### Advanced Layers
 ```bash
-cd 05-advanced-layers/autograd
+cd advancedLayers/autograd
 python train_with_normalization.py
 python train_with_skip_connections.py
 ```
